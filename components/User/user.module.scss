@@ -1,0 +1,44 @@
+@import '../../assets/scss/abstracts/abstracts.scss';
+
+.userpage{
+    height: 100vh;
+    overflow-y: auto; 
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    h4{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-size: pxtoRem(30px);
+        line-height: pxtoRem(25px);
+    }
+    h6{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-size: pxtoRem(20px);
+        line-height: pxtoRem(25px);
+    }
+    span{
+        color: $green;
+    }
+    button{
+        font-family: Chicle;
+        font-weight: 400;
+        font-size: pxtoRem(35px);
+        line-height: pxtoRem(16px);
+    }
+}
+.userpage::-webkit-scrollbar {
+    width: 6px;
+}
+
+.userpage::-webkit-scrollbar-thumb {
+    background-color: $blue;
+}
+
+.userpage::-webkit-scrollbar-thumb:hover {
+    background-color: $primary
+}
+
+.userpage::-webkit-scrollbar-track {
+    background-color: $blue-light;
+}

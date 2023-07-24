@@ -1,0 +1,25 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.ModalPopup {
+  .ModalHeader{
+    justify-content: center !important;
+    h3{
+      font-family: FuturaPTDemi;
+      font-weight: 400;
+      font-style: normal;
+      font-size: pxtoRem(28px);
+      line-height: pxtoRem(30px);
+    }
+  }
+  .ModalFooter{
+    background-color: $blue-light !important;
+    width: 100%;
+    justify-content: center !important;
+  }
+  button{
+    padding: pxtoRem(20px) pxtoRem(50px);
+    @include media-breakpoint-mobile-land {
+      padding: pxtoRem(10px) pxtoRem(10px);
+    }
+  }
+}

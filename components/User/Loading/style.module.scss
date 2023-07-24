@@ -1,0 +1,11 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.Loading{
+    h2{
+        font-family: Chicle;
+        font-weight: 400;
+        color: $primary;
+        font-size: pxtoRem(55px);
+        line-height: pxtoRem(25px);
+    }
+}

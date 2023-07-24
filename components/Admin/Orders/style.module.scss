@@ -1,0 +1,60 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.orderPage{
+    background-color: $blue-light;
+    border: 1px solid $blue;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    h4{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-style: normal;
+        color: $primary;
+        font-size: pxtoRem(23px);
+        line-height: pxtoRem(22px);
+    }
+    h5{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-size: pxtoRem(22px);
+        line-height: pxtoRem(20px);
+    }
+    h6{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        color: $blue;
+        font-size: pxtoRem(15px);
+        line-height: pxtoRem(20px);
+    }
+}
+.orderTable{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    table{
+        th{
+            padding: 15px;
+            background-color: $grey !important;
+            color: $black !important;
+            font-family: FuturaPTMedium;
+            font-weight: 400;
+            font-size: pxtoRem(20px);
+            line-height: pxtoRem(22px);
+        }
+       tbody{
+        tr{
+            border-bottom: 2px solid $grey;
+            td{
+                padding: 10px;
+                color: rgb(186, 186, 186);
+                font-family: FuturaPTMedium;
+                font-weight: 400;
+                font-size: pxtoRem(16px);
+                line-height: pxtoRem(20px);
+                a{
+                    color: $blue;
+                    font-size: pxtoRem(20px);
+                }
+            }
+        }
+       }
+    }
+    
+}

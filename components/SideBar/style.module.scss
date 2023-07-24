@@ -1,0 +1,50 @@
+@import '../../assets/scss/abstracts/abstracts.scss';
+
+.sidebar {
+  background: $blue;
+  min-width: 250px;
+  min-height: 150vh;
+  @include media-breakpoint-hd-desktop{
+    min-width: 280px;
+    min-height: 100vh;
+  }
+  @include media-breakpoint-mobile-land {
+    min-height: 0px;
+  }
+  .menuIcon{
+    display: none;
+    @include media-breakpoint-mobile-land {
+      display: block;
+    }
+  }
+  .navbarMenu {
+    font-family: FuturaPTLight;
+    margin-top: 10px;
+    display: block;
+    .menu {
+      font-family: FuturaPTLight;
+      font-weight: 400;
+      font-style: normal;
+      font-size: pxtoRem(30px);
+      line-height: pxtoRem(30px);
+      text-align: left;
+      color: $white;
+      padding: pxtoRem(10px) pxtoRem(50px);
+      margin-bottom: 25px;
+      margin-right: -30px;
+      border-radius: 0 20px 20px 0px;
+      cursor: pointer;
+      &:hover,
+      &.active {
+        background-color: $primary;
+        transition: 1s all ease;
+      }
+      @include media-breakpoint-mobile-land {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+
+

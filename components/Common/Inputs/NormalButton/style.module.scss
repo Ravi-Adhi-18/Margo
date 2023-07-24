@@ -1,0 +1,55 @@
+@import '../../../../assets/scss/abstracts/abstracts.scss';
+
+.customBtn {
+    color: $white;
+    border-radius: 100px;
+    padding: pxtoRem(10px) pxtoRem(40px);
+    font-family: FuturaPTDemi;
+    font-weight: 400;
+    font-size: pxtoRem(20px);
+    line-height: pxtoRem(16px);
+    cursor: pointer;
+}
+
+.blueBtn {
+    @extend .customBtn;
+    background-color: $blue;
+    border: 1px solid $blue;
+
+    &:hover {
+        color: $blue;
+        background-color: $white;
+        border: 1px solid $blue;
+    }
+}
+
+.whiteBtn {
+    @extend .customBtn;
+    background-color: $white;
+    border: 1px solid $blue;
+    color: $blue;
+
+    &:hover {
+        color: $white;
+        background-color: $blue;
+        border: 1px solid $blue;
+    }
+}
+
+.greenBtn {
+    @extend .customBtn;
+    background-color: $green;
+    border: 1px solid $white;
+
+    &:hover {
+        color: $green;
+        background-color: $white;
+        border: 1px solid $green;
+    }
+}
+
+.disableBtn{
+    @extend .customBtn;
+    background-color: $grey-light;
+    cursor: not-allowed;
+}

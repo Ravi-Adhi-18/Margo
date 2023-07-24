@@ -1,0 +1,36 @@
+$primary: #F27507;
+$secondary: #EFB61D;
+$blue:#00B2D9;
+$blue-light: #F6FBFE;
+$green: #579D44;
+$black: #000000;
+$white: #fff;
+$black-2: #2c2c2c;
+$black-10: #101828;
+$grey: #ECF1F4;
+$green: #579D44;
+$grey-light: #ACAEAF;
+
+
+/* Color */
+$myColors: (
+  'black':$black,
+  'white': $white,
+  'primary': $primary,
+  'secondary': $secondary,
+  'blue': $blue,
+  'green': $green,
+);
+
+@each $name, $colors in $myColors {
+  $index: index($myColors, $colors);
+  .text-#{$name} {
+    color: $colors;
+  }
+  .bg-#{$name} {
+    background-color: $colors;
+  }
+  .bc-#{$name} {
+    border-color: $colors;
+  }
+}

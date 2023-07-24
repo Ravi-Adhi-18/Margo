@@ -1,0 +1,19 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.endText{
+    padding: 10px 60px;
+    h4 {
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-style: normal;
+        font-size: pxtoRem(20px);
+        line-height: pxtoRem(26px);
+    }
+    h6{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-style: normal;
+        font-size: pxtoRem(25px);
+        line-height: pxtoRem(22px);
+    }
+}

@@ -1,0 +1,26 @@
+@import '../../../../assets/scss/abstracts/abstracts.scss';
+
+.customRadio {
+    .RadioStyle{
+        input[type="radio"] {
+            border: 2px solid $black;
+          background-image: none;
+        }
+        input[type="radio"]:checked {
+            outline: 3px solid $black;
+            box-shadow: none;
+            outline-offset: 2px;
+            border: none;
+            background-color: $blue; 
+        }
+        label{
+            font-family: FuturaPTBook;
+            color: $black;
+            font-weight: 400;
+            font-style: italic;
+            font-size: pxtoRem(20px);
+            line-height: pxtoRem(10px);
+        }
+        
+   }
+}

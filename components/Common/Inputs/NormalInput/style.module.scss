@@ -1,0 +1,56 @@
+@import '../../../../assets/scss/abstracts/abstracts.scss';
+
+.customNormalInput {
+  position: relative;
+  margin-bottom: pxtoRem(24px);
+  font-family: FuturaPTBook;
+  text-align: left !important;
+  .form_label {
+    margin: 15px;
+    font-family: FuturaPTBook;
+    font-style: italic;
+    font-weight: 400;
+    color: $black;
+    font-size: pxtoRem(22px);
+    line-height: pxtoRem(16px);
+    letter-spacing: -0.01em;
+  }
+  .helper_icon{
+    position: absolute;
+    top: pxtoRem(13px);
+    right: pxtoRem(15px);
+    background: transparent;
+    font-size: pxtoRem(18px);
+    z-index: 99;
+  }
+  input {
+    position: absolute;
+    border: 2px solid $primary;
+    box-sizing: border-box;
+    border-radius: pxtoRem(20px) !important;
+    font-family: FuturaPTMedium;
+    font-size: pxtoRem(20px);
+    padding: pxtoRem(7px) pxtoRem(15px);
+    height: pxtoRem(48px);
+    color: $black;
+    letter-spacing: -0.01em;
+    &:focus {
+      border: 2px solid $blue;
+      box-shadow: 0 0;
+    }
+
+    &::placeholder {
+      font-family: FuturaPTMedium;
+      font-weight: 200;
+      font-size: pxtoRem(20px);
+      letter-spacing: -0.01em;
+      color: $black;
+    }
+  }
+}
+
+@include media-breakpoint-mobile-port {
+  .customNormalInput {
+    margin-bottom: pxtoRem(16px);
+  }
+}

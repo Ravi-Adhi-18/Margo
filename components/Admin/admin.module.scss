@@ -1,0 +1,12 @@
+@import '../../assets/scss/abstracts/abstracts.scss';
+
+.adminPage{
+    padding: 10px 50px;
+    h2{
+      font-family: FuturaPTDemi;
+      font-weight: 400;
+      font-style: normal;
+      font-size: pxtoRem(30px);
+      line-height: pxtoRem(30px);
+    }
+}

@@ -1,0 +1,18 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.PlanPage{
+    h5{
+        font-family: FuturaPTDemi;
+        font-weight: 400; 
+        font-style: normal;
+        font-size: pxtoRem(40px);
+        line-height: pxtoRem(60px);
+    }
+    p{
+        font-family: FuturaPTDemi;
+        font-weight: 400; 
+        font-style: normal;
+        font-size: pxtoRem(18px);
+        line-height: pxtoRem(23px);
+    }
+}

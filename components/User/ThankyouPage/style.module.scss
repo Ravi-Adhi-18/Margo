@@ -1,0 +1,19 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.Pagecontent{
+    h3 {
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-style: normal;
+        font-size: pxtoRem(25px);
+        line-height: pxtoRem(30px);
+    }
+    h5{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-style: italic;
+        color: $blue;
+        font-size: pxtoRem(22px);
+        line-height: pxtoRem(25px);
+    }
+}

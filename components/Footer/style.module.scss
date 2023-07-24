@@ -1,0 +1,9 @@
+@import '../../assets/scss/abstracts/abstracts.scss';
+
+.footerPage{
+    background-image: url("/images/footer_wave.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin-top: -85px;
+}

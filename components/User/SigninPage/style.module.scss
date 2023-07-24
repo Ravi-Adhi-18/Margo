@@ -1,0 +1,22 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.signupIcons{
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: $white;
+    border: 1px solid $grey;
+    img{
+        margin-top: -04px;
+    }
+    span{
+        font-size: 20px;
+        color: $grey-light !important;
+        padding: 10px;
+    }
+    &:hover{
+        background-color: $blue;
+        span{
+            color: $white !important;
+        }
+    }
+}
