@@ -16,13 +16,13 @@ export const FirstOrder = () =>{
                 placeholder="blur"
             />
             <div className={styles.endText}>
-                <div className="my-2">
+                <div className="my-3">
                     <h2>For Your First Order: </h2>
                 </div>
-                <h4>Please put order in plastic or disposable bag. </h4>
-                <h5 className="my-2">(You’ll get an Margo’s laundry bag with delivery.)</h5>
-                <h4>We’ll text you when the driver is on their way.</h4>
-                <div className="mt-3">
+                <h3>Please put order in plastic or disposable bag. </h3>
+                <h5 className="my-4">(You’ll get an Margo’s laundry bag with delivery.)</h5>
+                <h3>We’ll text you when the driver is on their way.</h3>
+                <div className="mt-4">
                 <NormalButton
                     className="px-5 py-3"
                     onClick={() => router.push("/dashboard/orders")}

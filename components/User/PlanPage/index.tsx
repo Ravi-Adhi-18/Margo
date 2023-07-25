@@ -22,18 +22,18 @@ export const PlanPage = () => {
                         <div className="d-flex flex-column">
                             <CustomRadiobox value="1" type='checkbox' className='p-1' name='plan' title='Repeat Previous Order' onChange={() => { }} />
                             <RadioCard bgColor='whiteCard' className={"col-12 col-md-10 ms-md-5"}>
-                                <h5 className="card-title">$ 1.50/lb</h5>
+                                <h5 className="card-title">$1.50/lb</h5>
                                 <p className="card-text py-3">No Minimums | No Fees | No Tipping</p>
                            </RadioCard>
-                           <div className="py-3 my-2">
-                            <h4>Ready for a little more commitment? Try our subscription!</h4>
+                           <div className="p-4 my-2">
+                            <h2>Ready for a little more commitment? Try our subscription!</h2>
                            </div>
                             <CustomRadiobox value="2" type='checkbox' className='p-1' name='plan' title='Subscribe & Save' onChange={() => { }} />
                             <RadioCard bgColor='whiteCard' className={"col-12 col-md-10 ms-md-5"}>
-                                <h5 className="card-title">$ 79/month</h5>
-                                <h6 className='mt-3'> &bull; 50lbs of laundry<span>(over 20% discount!)</span></h6>
-                                <h6>&bull; Recurring weekly pickups</h6>
-                                <h6>&bull; 10% discount on any laundry over the monthly 50lbs</h6>
+                                <h5 className="card-title">$79/month</h5>
+                                <h3 className='mt-3'> &bull; 50lbs of laundry<span>(over 20% discount!)</span></h3>
+                                <h3>&bull; Recurring weekly pickups</h3>
+                                <h3>&bull; 10% discount on any laundry over the monthly 50lbs</h3>
                                 <p className="card-text py-3">No Fees | No Tipping | Cancel Anytime</p>
                            </RadioCard>
                         </div>

@@ -10,7 +10,7 @@ export const ThankyouPage = () => {
             <div className={styles.Pagecontent}>
                 <div className="my-2">
                     <h3>We’ll see you on <span>MONDAY</span></h3>
-                    <h5 className="mt-2">Please have your laundry out by 8am</h5>
+                    <h5 className="mt-3">Please have your laundry out by 8am</h5>
                 </div>
                 {/* <AllOrder /> */}
                 <FirstOrder />

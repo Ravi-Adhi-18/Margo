@@ -26,7 +26,7 @@ export default function SideBar({ children }: LayoutProps) {
                     <div className="col-12 col-md-2">
                         <div className={`${styles.sidebar}`}>
                             <div className="p-4">
-                                <div className="d-flex ps-md-4">
+                                <div className="d-flex ps-md-4 flex-row-reverse flex-lg-row">
                                     <Image
                                         src={'/images/logo_white.png'}
                                         alt="Margo Logo"
@@ -35,7 +35,7 @@ export default function SideBar({ children }: LayoutProps) {
                                         blurDataURL={'/images/logo_white.png'}
                                         placeholder="blur"
                                     />
-                                    <div className={`${styles.menuIcon} mt-4 ms-auto`}>
+                                    <div className={`${styles.menuIcon} mt-4 me-auto`}>
                                         <FontAwesomeIcon onClick={toggleMenu} icon={expanded ? faBars : faClose} size={"2x"} />
                                     </div>
 
