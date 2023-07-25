@@ -1,0 +1,33 @@
+@import '../../../assets/scss/abstracts/abstracts.scss';
+
+.responsiveImage {
+    width: 395px; 
+    height: 535px; 
+  @include media-breakpoint-mobile-land {
+    width: 100%;
+    height: auto;
+  }
+}
+.startText{
+    h4{
+        font-family: FuturaPTBook;
+        font-weight: 400; 
+        font-style: normal;
+        color: $black;
+        font-size: pxtoRem(35px);
+        line-height: pxtoRem(30px);
+    }
+}
+.endText{
+    h6{
+        font-family: FuturaPTBook;
+        font-weight: 400; 
+        font-style: normal;
+        color: $black;
+        font-size: pxtoRem(22px);
+        line-height: pxtoRem(25px);
+    }
+}
+
+  
+ 
