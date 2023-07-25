@@ -20,3 +20,22 @@
         }
     }
 }
+
+.SignupText{
+    h4{
+        font-family: FuturaPTBook;
+        font-weight: 400; 
+        font-style: normal;
+        color: $black;
+        font-size: pxtoRem(28px);
+        line-height: pxtoRem(30px);
+    }
+    h6{
+        font-family: FuturaPTBook;
+        font-weight: 400; 
+        font-style: normal;
+        color: $black;
+        font-size: pxtoRem(25px);
+        line-height: pxtoRem(21px);
+    }
+}

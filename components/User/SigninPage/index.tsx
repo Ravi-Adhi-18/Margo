@@ -84,7 +84,7 @@ export const SigninPage = () => {
             </FormProvider>
 
 
-            <div className="mt-3">
+            <div className={`${styles.SignupText} mt-3`}>
                 <h4>By signing in, you agree to our</h4>
                 <h6 className="mt-3"><span onClick={() => {}} className="cursor-pointer">Terms & Conditions</span></h6>
             </div>
