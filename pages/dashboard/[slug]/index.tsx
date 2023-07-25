@@ -2,7 +2,7 @@ import Admin from '@/components/Admin';
 import AuthLayout from '@/layout/authlayout/AuthLayout';
 import { useRouter } from 'next/router';
 
-export default function homePage() {
+export default function HomePage() {
     const router = useRouter();
     const { query } = router;
     const { slug } = query;
