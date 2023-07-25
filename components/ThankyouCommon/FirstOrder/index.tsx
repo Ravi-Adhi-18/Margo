@@ -19,9 +19,9 @@ export const FirstOrder = () =>{
                 <div className="my-3">
                     <h2>For Your First Order: </h2>
                 </div>
-                <h3>Please put order in plastic or disposable bag. </h3>
+                <h1>Please put order in plastic or disposable bag. </h1>
                 <h5 className="my-4">(You’ll get an Margo’s laundry bag with delivery.)</h5>
-                <h3>We’ll text you when the driver is on their way.</h3>
+                <h1>We’ll text you when the driver is on their way.</h1>
                 <div className="mt-4">
                 <NormalButton
                     className="px-5 py-3"
