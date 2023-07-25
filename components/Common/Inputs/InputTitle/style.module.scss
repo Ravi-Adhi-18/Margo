@@ -10,8 +10,9 @@
   color: $black;
 }
 .orangeTxt{
-  font-family: FuturaPTMedium;
-  color: $primary
+  font-family: Chicle;
+  color: $primary;
+  line-height: pxtoRem(25px);
 }
 .blueTxt{
   font-family: Chicle;

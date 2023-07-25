@@ -9,12 +9,14 @@ export const StartedPage = () =>{
         <>
             <div className="mt-4">
                 <Image
+                    className="cursor-pointer"
                     src={'/images/Logo.png'}
                     alt="Margo Logo"
                     width={200}
                     height={100}
                     blurDataURL={'/images/Logo.png'}
                     placeholder="blur"
+                    onClick={() => router.push("/user/start")}
                 />
             </div>
 

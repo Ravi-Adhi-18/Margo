@@ -30,6 +30,7 @@ export const Orders = () => {
                         <div className="d-flex flex-wrap align-items-center flex-row">
                             <div className="p-2">
                                 <NormalButton
+                                    className='p-md-3'
                                     bgColor='whiteBtn'
                                     onClick={() => console.log("clicked")} 
                                     type="submit" 
@@ -38,6 +39,7 @@ export const Orders = () => {
                             </div>
                           <div className="p-2">
                                 <NormalButton
+                                    className='p-md-3'
                                     onClick={() => router.push("/user/plan")} 
                                     type="submit" 
                                     disabled={false}

@@ -8,12 +8,14 @@ export const Header = () => {
         <>
             <div className="my-3 d-flex flex-wrap flex-md-nowrap justify-content-md-end justify-content-center flex-row">
                 <Image
+                    className="cursor-pointer"
                     src={'/images/Logo.png'}
                     alt="Margo Logo"
                     width={200}
                     height={100}
                     blurDataURL={'/images/Logo.png'}
                     placeholder="blur"
+                    onClick={() => router.push("/user/start")}
                 />
                 <div className="p-3">
                     <NormalButton onClick={()=> router.push("/user/help")} type="submit" className='py-2' disabled={false} bgColor="greenBtn">Help</NormalButton>

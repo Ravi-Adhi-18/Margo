@@ -17,7 +17,7 @@ export const HelpContent = () => {
                 />
                 <div className="d-flex flex-column">
                     <FormTitle bgColor="blueTxt" label="I’m Mia" required={false} />
-                    <FormTitle className="pb-4" bgColor="orangeTxt" label="From the Customer Success team" required={false} />
+                    <FormTitle className="py-2" bgColor="orangeTxt" label="From the Customer Success team" required={false} />
                     {/* <h5 className="w-100 pb-4">From the Customer Success team</h5> */}
                 </div>
             </div>
