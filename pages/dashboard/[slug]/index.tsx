@@ -3,8 +3,8 @@ import AuthLayout from '@/layout/authlayout/AuthLayout';
 import { useRouter } from 'next/router';
 
 export default function homePage() {
-    const Router = useRouter();
-    const { query } = Router;
+    const router = useRouter();
+    const { query } = router;
     const { slug } = query;
     return (
         <>

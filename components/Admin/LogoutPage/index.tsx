@@ -19,15 +19,10 @@ export const Logout = () => {
             <ModalPopup
                 handleClose={handleModalClose}
                 handleYes={handleModalSumbit}
-                children={(
-                    <>
-                        <h5 className="text-center p-4">Are you sure do you want to logout</h5>
-                    </>
-                )}
                 title={"Logout"}
                 buttonTitle={"Confirm Logout"}
                 show={modal}
-            />
+            > <h5 className="text-center p-4">Are you sure do you want to logout</h5></ModalPopup>
         </>
     )
 }

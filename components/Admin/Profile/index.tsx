@@ -110,16 +110,16 @@ export default function Profile() {
                             <ModalPopup 
                                 handleClose={handleModalClose} 
                                 handleYes={handleModalSumbit} 
-                                children={
-                                    ModalTemplate == "Card" 
-                                    ? <AddCard /> :<ForgotPassword 
-                                />} 
+                                // children={
+                                //     ModalTemplate == "Card" 
+                                //     ? <AddCard /> :<ForgotPassword 
+                                // />} 
                                 title={
                                     ModalTemplate == "Card" 
                                     ? "Add Card" : "Change Password"}  
                                 buttonTitle={"Save " + ModalTemplate} 
                                 show={modal} 
-                            />
+                            >{ ModalTemplate == "Card" ? <AddCard /> : <ForgotPassword /> }</ModalPopup>
                             <div className="py-2">
                                 <NormalButton  
                                     onClick={() => console.log("clicked")} 
