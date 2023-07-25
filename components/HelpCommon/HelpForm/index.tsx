@@ -33,7 +33,7 @@ export const HelpForm = ({ className} :HelpFormProps) => {
                             onClick={() => console.log("clicked")}
                             type="submit"
                             disabled={false}
-                        >Send</NormalButton>
+                        >Submit</NormalButton>
                     </div>
                 </form>
             </FormProvider>

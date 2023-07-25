@@ -11,7 +11,7 @@ export const HelpPage = () => {
                 </div>
               
                 <div className="d-flex flex-column-reverse flex-wrap flex-column align-items-center">
-                    <div className={`${styles.helpForm} col-10 mt-3`}>
+                    <div className={`${styles.helpForm} col-10 mt-4`}>
                         <HelpForm className={"col-12"}/>
                     </div>
                    
