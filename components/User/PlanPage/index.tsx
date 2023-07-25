@@ -25,7 +25,7 @@ export const PlanPage = () => {
                                 <h5 className="card-title">$1.50/lb</h5>
                                 <p className="card-text py-3">No Minimums | No Fees | No Tipping</p>
                            </RadioCard>
-                           <div className="p-4 my-2">
+                           <div className="p-4 mb-3">
                             <h2>Ready for a little more commitment? Try our subscription!</h2>
                            </div>
                             <CustomRadiobox value="2" type='checkbox' className='p-1' name='plan' title='Subscribe & Save' onChange={() => { }} />

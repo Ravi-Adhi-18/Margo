@@ -8,11 +8,11 @@ export const HelpContent = () => {
             <div className="d-flex justify-content-between align-items-end">
                 <Image
                     className="img-fluid"
-                    src={'/images/help_customer_img.png'}
+                    src={'/images/mia.webp'}
                     alt="Margo Logo"
-                    width={220}
+                    width={180}
                     height={200}
-                    blurDataURL={'/images/help_customer_img.png'}
+                    blurDataURL={'/images/mia.webp'}
                     placeholder="blur"
                 />
                 <div className="d-flex flex-column">

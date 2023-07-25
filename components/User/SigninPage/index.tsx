@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import Footer from "@/components/Footer";
 const resetData = () => ({ firstname: '' });
 export const SigninPage = () => {
-    const [isPasswordVisible, setIsPasswordVisible] = useState(true);
+    const [isPasswordVisible, setIsPasswordVisible] = useState(false);
     const methods = useForm({ defaultValues: { ...resetData() } });
     const onSubmit = (values: any) => {
         console.log('submit', values);
