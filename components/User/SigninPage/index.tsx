@@ -6,6 +6,7 @@ import { FormProvider, useForm } from "react-hook-form"
 import styles from './style.module.scss'
 import { useRouter } from "next/router";
 import Footer from "@/components/Footer";
+import { Header } from "@/components/Header";
 const resetData = () => ({ firstname: '' });
 export const SigninPage = () => {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
@@ -16,6 +17,7 @@ export const SigninPage = () => {
     const router = useRouter();
     return (
         <>
+            <Header />
             <div>
                 <Image
                     className="img-fluid"

@@ -16,7 +16,7 @@ export const HelpForm = ({ className} :HelpFormProps) => {
         <>
             <FormProvider {...methods}>
                 <form onSubmit={methods.handleSubmit(onSubmit)}>
-                    <FormTitle bgColor="orangeTxt" className="py-2" label="How Can We Help" required={false} /> <span className="h3" style={{ color: "#F27507" }}>&#63;</span>
+                    <FormTitle bgColor="orangeTxt" className="py-1" label="How Can We Help" required={false} /> <span className="h3" style={{ color: "#F27507" }}>&#63;</span>
                     <NormalInput
                         className={className}
                         name="subject"
@@ -25,7 +25,16 @@ export const HelpForm = ({ className} :HelpFormProps) => {
                         required={true}
                         placeholder="Enter Your Subject"
                     />
-                    <FormTitle bgColor="orangeTxt" className="py-2" label="Description" required={false} />
+                    <FormTitle bgColor="orangeTxt" className="py-1" label="Enter Your Email" required={false} />
+                    <NormalInput
+                        className={className}
+                        name="email"
+                        label=""
+                        type="email"
+                        required={true}
+                        placeholder="Carolinedutka@yahoo.com"
+                    />
+                    <FormTitle bgColor="orangeTxt" className="py-1" label="Description" required={false} />
                     <NormalTextArea onChange={() => { }} className={className} name="requestdetails" required={true} placeholder="Enter Here" />
 
                     <div className="py-3 text-center">

@@ -1,0 +1,10 @@
+@import '../../assets/scss/abstracts/abstracts.scss';
+
+.HeaderPage{
+    button{
+        font-family: FuturaPTDemi;
+        font-weight: 400;
+        font-size: pxtoRem(25px);
+        line-height: pxtoRem(16px);
+    }
+}

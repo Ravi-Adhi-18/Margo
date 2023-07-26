@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { NormalButton } from "../Common/Inputs/NormalButton";
 import { useRouter } from "next/router";
-
+import styles from "./style.module.scss"
 export const Header = () => {
     const router = useRouter();
     return(
@@ -17,8 +17,8 @@ export const Header = () => {
                     placeholder="blur"
                     onClick={() => router.push("/user/start")}
                 />
-                <div className="p-3">
-                    <NormalButton onClick={()=> router.push("/user/help")} type="submit" className='py-2' disabled={false} bgColor="greenBtn">Help</NormalButton>
+                <div className={`${styles.HeaderPage} p-3`}>
+                    <NormalButton onClick={()=> router.push("/user/help")} type="submit" className='' disabled={false} bgColor="greenBtn">Help</NormalButton>
                 </div>
             </div>
         </>
